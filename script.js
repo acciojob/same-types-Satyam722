@@ -3,7 +3,7 @@ function isSameType(value1, value2) {
     return true;
   }
 
-  return typeofvalue1==typeofvalue2;
+  return typeof(value1)==typeof(value2);
 }
 
 // do not change the code below.
